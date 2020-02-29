@@ -1,6 +1,7 @@
+
 body{
   margin: auto;
-  background-color: #181818;
+  background-color: #11548f;
 	font-family: "Sans-serif, Times New Roman";
   }
   
@@ -14,17 +15,23 @@ h1{
 
 h2{
   font-family: 'Oswald';
-  color: #21A675;
+  color: #F47983;
   font-weight: lighter;
 }
 
 label{
+  font-size: 20px;
   font-family: Didot;
   font-weight: lighter;
   color: #FFFBF0;
 }
 
+@media screen and (min-width:600px){
+
+
 input{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
 }
