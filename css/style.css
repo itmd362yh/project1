@@ -1,0 +1,30 @@
+body{
+  margin: auto;
+  background-color: #181818;
+	font-family: "Sans-serif, Times New Roman";
+  }
+  
+h1{
+  margin: 30px 20px 5px;
+  font-size: 120px;
+  font-family:Deadhead;
+  font-weight: lighter;
+  color: #FFFBF0;
+}
+
+h2{
+  font-family: 'Oswald';
+  color: #21A675;
+  font-weight: lighter;
+}
+
+label{
+  font-family: Didot;
+  font-weight: lighter;
+  color: #FFFBF0;
+}
+
+input{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
