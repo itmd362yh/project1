@@ -1,22 +1,24 @@
-
 body{
   margin: auto;
   background-color: #11548f;
-	font-family: "Sans-serif, Times New Roman";
+  font-family: "Sans-serif, Times New Roman";
   }
   
+
 h1{
-  margin: 30px 20px 5px;
-  font-size: 120px;
-  font-family:Deadhead;
+  font-size: 50px;
+  font-family: 'Oswald';
+  color: #F47983;
   font-weight: lighter;
-  color: #FFFBF0;
+  text-align: center;
+
 }
 
 h2{
   font-family: 'Oswald';
   color: #F47983;
   font-weight: lighter;
+  text-align: center;
 }
 
 label{
@@ -24,14 +26,45 @@ label{
   font-family: Didot;
   font-weight: lighter;
   color: #FFFBF0;
+  text-align: center;
+}
+
+.inf{
+  font-size: 1em;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+div.info{
+  border: 3px solid #A29B7C;
+  text-align: center;
+  max-width:600px;
+  margin: auto;
+
+}
+
+div.type{
+  border: 3px solid #A29B7C;
+  text-align: center;
+  max-width:600px;
+  margin: auto;
+}
+
+
+.submit{
+  background-color: #A29B7C;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-family: 'Oswald';
+  margin: auto;
+  cursor: pointer;
 }
 
 @media screen and (min-width:600px){
 
 
-input{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 }
